@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to the Webpage of Blake Tam!</title>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6c7f88ab20.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="my_webapge.css">
+    <script src="my_webapge.js"></script>
+</head>
+
+<body>
+
+<main class="landing-page">
+    <div class="landing-page-section section--top-bar">
+        <div class="top-bar-wrapper">
+            <span class="top-bar--label">< My HCI Diary /></span>
+            <nav class="top-bar--nav-links">
+                <a class="top-bar--nav-link" href="index.html">About</a>
+                <a class="top-bar--nav-link" href="projects.html">Projects</a>
+            </nav>
+        </div>
+    </div>
+    <section class="landing-page-section section--hero">
+        <div class="hero--canvas">
+            <span class="canvas--label">I'm Blake. Welcome to My Webpage!</span>
+            <div class="canvas--highlight-list">
+                <div class="highlight-list--item-card desktop-or-up--1/3">
+                    <div class="item-card--upper"></div>
+                    <div class="item-card--lower">
+                        <span class="lower--header">HCI Project 1</span>
+                        <span class="lower--desc">If ___ were more friendly</span>
+                    </div>
+                </div>
+                <div class="highlight-list--item-card desktop-or-up--1/3">
+                    <div class="item-card--upper"></div>
+                    <div class="item-card--lower">
+                        <span class="lower--header">HCI Project 2</span>
+                        <span class="lower--desc">XXX</span>
+                    </div>
+                </div>
+                <div class="highlight-list--item-card desktop-or-up--1/3">
+                    <div class="item-card--upper"></div>
+                    <div class="item-card--lower">
+                        <span class="lower--header">HCI Project 3</span>
+                        <span class="lower--desc">XXX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="landing-page-section section--content">
+        <div class="content-breadcrumb-wrapper">
+            <ul class="breadcrumb">
+                <li>Home</li>
+                <li>Projects</li>
+            </ul>
+        </div>
+        <article class="content-wrapper">
+            <h3>Project 1: If toilet system were more user-friendly</h3>
+            <p>
+                <h4>Brainstorming</h4>
+                <div class="content-util--flex flex--content-center">
+                    <div class="desktop-or-up--2/3">
+                        <img class="content-util--img-showfull" src="assets/mindmap.jpg">
+                    </div>
+                </div>
+                <div class="content-util--flex">
+                    <p>
+                        We started by picking out the small incoveniences in our daily campus life and ask ourselves which of these incoveniences annoy us the most.
+                        Eventually, each of us came up with a few ideas and we grouped them into this mindmap.
+                        
+                        <br><br>
+
+                        At last, we decided to tackle the "toilet issue" in our campus. 
+                    </p>
+                </div>
+                <h4>Problem scope</h4>
+                <div class="content-util--flex flex--gap-small">
+                    <div class="desktop-or-up--1/2"><img class="content-util--img-showfull" src="assets/problem_scope.png"></div>
+                    <div class="desktop-or-up--1/2"><img class="content-util--img-showfull" src="assets/pov.png"></div>
+                </div>
+                <div class="content-util--flex">
+                    <p>
+                        Some toilets in the campus always have its cubicles preoccupied, while there are still some vacancies in other toilets,  especially in rush hour.  
+                        We find out that a lot of UST students find it inconvenient when you go into toilet and find out all cubicles are occupied. 
+                        The toilet facilities in campus are therefore not fully utilised. 
+
+                        <br><br>
+
+                        We discover the situation where students are entering and leaving the washroom within a short period. 
+                        This happens especially around 12:00, 13:30, 15:00, which are breaks between lectures. 
+                        Some lesser-known washrooms are not utilized as frequently as washrooms near hotspots, eg. Library, LT-A, LG1 canteen…
+                    </p>
+                </div>
+                <div class="content-util--flex">
+                    <div class="desktop-or-up--1/2 content-util--img-bg" style="background-image: url('assets/toilet_hotspot.png')"></div>
+                    <div class="desktop-or-up--1/2 content-util--img-bg" style="background-image: url('assets/toilet_unoccupied.png')"></div>
+                </div>
+                <div class="content-util--flex">
+                    <p>
+                        All of us are active users of UST’s washroom. We have all experienced the aforementioned toilet-finding problem. 
+                        We all agree that different washrooms were not utilized equally, resulting in some crowding while the others having low usage.
+                    </p>
+                </div>
+                <h4>Our final solution - a smart toilet system</h4>
+                <div class="content-util--flex">
+                    <div class="desktop-or-up--1/2"><img class="content-util--img-showfull" src="assets/mindmap_toilet.png"></div>
+                    <div class="desktop-or-up--1/2"><img class="content-util--img-showfull" src="assets/toilet_storyboard.png"></div>
+                </div>
+                <div class="content-util--flex">
+                    <p>
+                        We think that our campus is in urgent need for a smart toilet system. What do we mean by this? 
+                        We will design an app that serves to show all available toilet cubicles directly on your mobile phone.
+                        This app may be embedded into the existing HKUST Student / Staff app as a plugin too. With this app,
+                        student & staff may now be able to know where is the closest washroom with empty slot. 
+                        
+                        <br><br>
+
+                        On the technical level, The app will have modern, simplistic and intuitive UI so that it is easy to use. 
+                        We will also design the app such that the toilet result's latency time is within seconds so that users
+                        get to see the result quickly. 
+                    </p>
+                </div>
+                <h4>My contribution & reflection</h4>
+                <div class="content-util--flex">
+                    <p>
+                        In my group, I helped to create part of the group presentation ppt by writing ppt text and searching ppt images.
+                        I was also responsible for introducing the "Smart Toilet System App" part in our group presentation.
+
+                        <br><br>
+
+                        After this project, I've learnt the importance of thinking from the users' point of view while developing apps.
+                        It is always to easy to implement cool and new technologies into an app, but without any consideration and empathy for
+                        the app users, the app could become an inconvenience and annoyance regardless of what it could achieve. It is important
+                        for us to remember that when we are designing an app, we are trying to solve real-world problems and not create hicups for the users. 
+                        If we pay extra attention to create a cohesive and smooth user experience for the app, then we will truly achieve this goal.
+                    </p>
+                </div>
+            </p>
+        </article>
+        <article class="content-wrapper">
+            <h3>Project 2: XXX</h3>
+            <p>
+                This is my second project.
+            </p>
+        </article>
+        <article class="content-wrapper">
+            <h3>Project 3: XXX</h3>
+            <p>
+                This is my third project.
+            </p>
+        </article>
+    </section>
+    <footer class="section--footer">
+        <div class="footer-wrapper">
+            <span class="footer--author-label">© 2023 by Blake Tam</span>
+            <nav class="footer--nav-links">
+                <a class="footer--nav-link"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="footer--nav-link" href="mailto:cstamac@connect.ust.hk"><i class="fa-solid fa-envelope"></i></a>
+            </nav>
+        </div>
+    </footer>
+</main>
+
+</body>
+
+</html>
